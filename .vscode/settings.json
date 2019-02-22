@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/38feb7d7-cb9f-4f81-b9b6-bedb95f6733d/resourceGroups/ucnjewelry/providers/Microsoft.Web/sites/ucnjewelry",
+    "appService.deploySubpath": ""
+}

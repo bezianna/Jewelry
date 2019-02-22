@@ -1,0 +1,43 @@
+{
+    "rings":[{
+        "name":"lorem ipsum",
+        "designer_name":"Lorem Smith",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum molestie massa eget aliquam. Integer quis nisi consectetur, molestie neque quis, varius odio.",
+        "image":"phoca_thumb_l_img_3188-edit.jpg"
+    }, {
+        "name":"lorem ipsum",
+        "designer_name":"Lorem Smith",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum molestie massa eget aliquam. Integer quis nisi consectetur, molestie neque quis, varius odio.",
+        "image":"phoca_thumb_l_img_3195-edit.jpg"
+    }, {
+        "name":"lorem ipsum",
+        "designer_name":"Felix Hoenicker",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum molestie massa eget aliquam. Integer quis nisi consectetur, molestie neque quis, varius odio.",
+        "image":"phoca_thumb_l_img_3198-edit.jpg"
+    }, {
+        "name":"lorem ipsum",
+        "designer_name":"Ole Hedegaard",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum molestie massa eget aliquam. Integer quis nisi consectetur, molestie neque quis, varius odio.",
+        "image":"phoca_thumb_l_img_3602-edit.jpg"  
+    }, {
+        "name":"lorem ipsum",
+        "designer_name":"Lorem Smith",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum molestie massa eget aliquam. Integer quis nisi consectetur, molestie neque quis, varius odio.",
+        "image":"phoca_thumb_l_img_3216-edit.jpg"
+    }, {
+        "name":"lorem ipsum",
+        "designer_name":"Lorem Smith",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum molestie massa eget aliquam. Integer quis nisi consectetur, molestie neque quis, varius odio.",
+        "image":"phoca_thumb_l_img_3222-edit.jpg"
+    }, {
+        "name":"lorem ipsum",
+        "designer_name":"Felix Hoenicker",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum molestie massa eget aliquam. Integer quis nisi consectetur, molestie neque quis, varius odio.",
+        "image":"phoca_thumb_l_img_3230-edit.jpg"
+    }, {
+        "name":"lorem ipsum",
+        "designer_name":"Ole Hedegaard",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum molestie massa eget aliquam. Integer quis nisi consectetur, molestie neque quis, varius odio.",
+        "image":"phoca_thumb_l_img_3249-edit.jpg"  
+    }]
+}

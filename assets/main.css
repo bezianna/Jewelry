@@ -1,0 +1,281 @@
+@keyframes nav {
+    from { margin-top:-50px; opacity:0; }
+    to {margin-top:0px; opacity:1; }
+}
+.transition {
+    transition:all 0.6 ease;
+    -webkit-transition:all 0.6 ease;
+    -moz-transition:all 0.6 ease;
+    -o-transition:all 0.6 ease;
+}
+body {
+    margin: 0;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    border: 1px solid #cecece;
+}
+nav ul {
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    display: inline-block;
+    line-height: 70px;
+    text-align: center;
+    transition:all 0.6 ease;
+    -webkit-transition:all 0.6 ease;
+    -moz-transition:all 0.6 ease;
+    -o-transition:all 0.6 ease;
+}
+nav li:hover > a {
+     color: #821E2D;
+}
+nav a {
+    color: #444444;
+    padding:10px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 14px;
+}
+nav ul ul {
+    position: absolute;
+    display: none;
+    background-color:rgba(255, 255, 255,0.85);
+    padding: 0;
+}
+nav ul ul li {
+    display: block;
+    clear: both;
+    float: none;
+    line-height:40px;
+}
+nav ul ul li a {
+    font-size:12px;
+}
+nav ul li:hover > ul {
+    display:block;
+    -webkit-animation: nav 1s;
+    animation: nav 1s;
+}
+header {
+    width: 100%;
+    height: 450px;
+    background-image:url("images/black-and-white-close-up-diamond-265906.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    position: relative;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito Sans', sans-serif;    
+}
+h1 {
+    color:#821e2d;
+    line-height:35px;
+}
+h2 {
+    color: #696969;
+    line-height:30px;
+}
+.guldsmed {
+    width:400px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right:0;
+    margin: auto;
+    color: #821e2d;
+    top:50%;
+    transform:translateY(-50%);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.guldsmed h1 {
+    font-family: 'Playfair Display', serif;
+}
+.btn {
+    display: block;
+    margin:0 auto;
+    border: none;
+    padding: 8px 11px;
+    cursor: pointer;
+}
+.btn:focus {
+    outline: 0;
+    border: none;
+}
+.white_btn {
+    padding:8px 15px;
+    background-color: white;
+    border:1px solid #eeeeee;
+    color: #444444; 
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.4s ease;
+    -ms-transition: background-color 0.4s ease;
+    -moz-transition: background-color 0.4s ease;
+    -o-transition: background-color 0.4s ease;
+}
+.white_btn:hover {
+    background-color: rgb(207, 207, 207);
+}
+.content {
+    width: 1080px;
+    padding: 20px;
+    margin: auto;
+    overflow: hidden;
+    text-align: justify;
+    line-height:23px;
+    font-family: 'Playfair Display', serif;
+}
+.left_image {
+    width:350px;
+    height:auto;
+    overflow:hidden;
+    float:left;
+    margin: 0px 20px 20px 0px;
+}
+.left_image img {
+    width:350px;
+    height:169px;
+    object-fit: cover; 
+}
+.right_image {
+    width:350px;
+    height:169px;
+    float:right;
+    overflow: hidden;
+    margin: 0px 0px 20px 20px;
+}
+.right_image img {
+    width: 350px;
+    height: 169px;
+    object-fit: cover;
+}
+.grey_line {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:#2e2e2e;
+    color: #d8d8d8;
+}
+footer{
+    width:100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    padding: 20px 0px;
+    background-color:#d8d8d8;
+    color:#2e2e2e;
+    line-height:24px;
+}
+.footer_content{
+    margin:15px;
+}
+.rings_grid {
+    display:grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap:15px;
+}
+.ring {
+    height:350px;
+    padding:15px;
+    border-radius:5px;
+    border:1px solid #d8d8d8;
+    transition:all 0.7s ease;
+    -moz-transition:all 0.7s ease;
+    -o-transition:all 0.7s ease;
+}
+.ring:hover {
+    box-shadow:0px 0px 4px #2e2e2e;
+    -webkit-box-shadow:0px 0px 4px #2e2e2e;
+    -moz-box-shadow:0px 0px 4px #2e2e2e;
+    -o-box-shadow:0px 0px 4px #2e2e2e;
+}
+.image_holder {
+    width: 100%;
+    height: 260px;
+}
+.image_holder img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+.ring h3 {
+    color: #821E2D;
+    text-align: center;
+    margin:5px;
+}
+.ring h4 {
+    color: #2e2e2e;
+    font-style: italic;
+    text-align: center;
+}
+#googlemap {
+    padding-top:40px;
+}
+@media screen and (max-width:1250px) {
+    .content {
+        width: 90%;
+    }
+    .rings_grid {
+        grid-template-columns: 32% 32% 32%;
+    }
+}
+@media screen and (max-width:860px) {
+    header {
+        height:250px;
+        background-position:center 0px;
+    }
+    .rings_grid {
+        grid-template-columns: 49% 49% 49%;
+    }
+}
+@media screen and (max-width:650px) {
+    nav {
+        display: block;
+        height: auto;
+    }
+    nav ul {
+        display: block;
+    }
+    nav li {
+        display: block;
+    }
+    nav ul ul {
+        position: relative;
+    }
+    footer {
+        display:block;
+        height: auto;
+    }
+    .footer_content {
+        margin:auto;
+        clear:both;
+        text-align: center;
+    }
+    .rings_grid {
+        grid-template-columns: 100% 100% 100%;
+    }
+}
+@media screen and (max-width:460px) {
+    h1, h2, h3, h4 {
+        text-align: center;
+    }
+    .guldsmed {
+        width:100%
+    }
+    .content {
+        width: 85%;
+    }
+}

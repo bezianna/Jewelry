@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <% include common/head.ejs %>
+    <% include common/nav.ejs %>
+<body>
+    <main>
+        <div class="content">
+            <h1>Forlovelsesringe</h1>
+            <div class="rings_grid">
+                    <% rings.forEach(function(ring) { %>
+                        <div class="ring">
+                            
+                            <div class="image_holder">
+                                <img src="<%=baseUrl%>/assets/images/jewelry/engagement_rings/<%=ring.image%>">
+                            </div>   
+                            <h3><%= ring.name %></h3>                         
+                            <h4>Designer: <%= ring.designer_name %></h4>
+                        </div>
+                        <% }); %>
+            </div>
+        </div>           
+    </main>
+    <% include common/footer.ejs %>
+    
+</body>
+</html>
